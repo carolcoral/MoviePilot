@@ -15,7 +15,7 @@ $:
             git config --global user.name "CNB CI"
 
             # 移除 CNB 专属文件，不推送到 GitHub
-            rm -rf .cnb/ .cnb.yml .codebuddy .ide
+            rm -rf .cnb/ .cnb.yml .codebuddy .ide .github
             git add -A
             git commit -m "chore: remove CNB config (auto-generated mirror)" --allow-empty
 
